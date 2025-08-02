@@ -1,4 +1,4 @@
-````markdown
+
 # 🚗 RideSphere - A Role-Based Ride Sharing Backend System
 
 RideSphere is a scalable Node.js backend API for a ride-sharing platform, featuring role-based access for **Admins**, **Riders**, and **Drivers**. It includes ride request flows, driver approval processes, real-time ride status updates, and JWT-secured authentication.
@@ -58,7 +58,6 @@ RideSphere is a scalable Node.js backend API for a ride-sharing platform, featur
   isBlocked, driver?: ObjectId
 }
 ```
-````
 
 ### Driver
 
