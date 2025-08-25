@@ -13,6 +13,7 @@ export interface IUser {
   phone?: string;
   password: string;
   isBlocked?: boolean;
+  isVerified?: boolean;
   role?: UserRole;
   driver?: Schema.Types.ObjectId;
 }

@@ -13,6 +13,7 @@ const UserSchema = new Schema<IUser>(
     },
     phone: { type: String },
     isBlocked: { type: Boolean, default: false },
+    isVerified: { type: Boolean, default: false },
   },
   { timestamps: true, versionKey: false }
 );

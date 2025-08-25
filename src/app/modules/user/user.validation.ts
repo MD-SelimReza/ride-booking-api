@@ -33,6 +33,7 @@ export const createUserZodSchema = z.object({
         'Phone number must be valid for Bangladesh. Format: +8801XXXXXXXXX or 01XXXXXXXXX',
     })
     .optional(),
+  role: z.enum(Object.values(UserRole) as [string]).optional(),
 });
 
 export const updateUserZodSchema = z.object({
